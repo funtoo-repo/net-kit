@@ -12,13 +12,10 @@ BIS_P="${BIS_PN}-${BIS_PV}"
 
 DESCRIPTION="LDAP suite of application and development tools"
 HOMEPAGE="https://www.openldap.org/"
-SRC_URI="
-	https://gitlab.com/openldap/${PN}/-/archive/OPENLDAP_REL_ENG_${MY_PV}/${PN}-OPENLDAP_REL_ENG_${MY_PV}.tar.gz
-	mirror://funtoo/${BIS_P}
+SRC_URI="https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.9.tgz -> openldap-2.6.9.tgz
 "
-S="${WORKDIR}"/${PN}-OPENLDAP_REL_ENG_${MY_PV}
-
 LICENSE="OPENLDAP GPL-2"
+
 # Subslot added for bug #835654
 SLOT="0/$(ver_cut 1-2)"
 KEYWORDS="next"
@@ -94,7 +91,6 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-2.6.1-cloak.patch
 	"${FILESDIR}"/${PN}-2.6.1-flags.patch
 	"${FILESDIR}"/${PN}-2.6.1-fix-missing-mapping.patch
-	"${FILESDIR}"/${PN}-2.6.1-fix-bashism-configure.patch
 )
 
 openldap_filecount() {
@@ -676,7 +672,7 @@ src_install() {
 		newdoc addrdnvalues/README addrdnvalues-README
 
 		insinto /etc/openldap/schema
-		newins "${DISTDIR}"/${BIS_P} ${BIS_PN}
+		newins "${FILESDIR}"/${BIS_P} ${BIS_PN}
 
 		docinto back-sock ; dodoc "${S}"/servers/slapd/back-sock/searchexample*
 		docinto back-perl ; dodoc "${S}"/servers/slapd/back-perl/SampleLDAP.pm

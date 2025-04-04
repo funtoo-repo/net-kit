@@ -68,8 +68,8 @@ EGO_SUM=(
 	"github.com/godbus/dbus/v5 v5.0.4/go.mod"
 	"github.com/gogo/protobuf v1.3.2"
 	"github.com/gogo/protobuf v1.3.2/go.mod"
-	"github.com/golang-jwt/jwt/v4 v4.5.1"
-	"github.com/golang-jwt/jwt/v4 v4.5.1/go.mod"
+	"github.com/golang-jwt/jwt/v4 v4.5.2"
+	"github.com/golang-jwt/jwt/v4 v4.5.2/go.mod"
 	"github.com/golang/protobuf v1.2.0/go.mod"
 	"github.com/golang/protobuf v1.5.4"
 	"github.com/golang/protobuf v1.5.4/go.mod"
@@ -149,8 +149,8 @@ EGO_SUM=(
 	"github.com/minio/crc64nvme v1.0.1/go.mod"
 	"github.com/minio/filepath v1.0.0"
 	"github.com/minio/filepath v1.0.0/go.mod"
-	"github.com/minio/madmin-go/v3 v3.0.96"
-	"github.com/minio/madmin-go/v3 v3.0.96/go.mod"
+	"github.com/minio/madmin-go/v3 v3.0.102"
+	"github.com/minio/madmin-go/v3 v3.0.102/go.mod"
 	"github.com/minio/md5-simd v1.1.2"
 	"github.com/minio/md5-simd v1.1.2/go.mod"
 	"github.com/minio/minio-go/v7 v7.0.88"
@@ -358,8 +358,8 @@ EGO_SKIP_TIDY=1
 DESCRIPTION="Fast tool to manage MinIO clusters"
 HOMEPAGE="https://min.io/ https://github.com/minio/mc"
 SRC_URI="
-https://github.com/minio/mc/tarball/a974454e0849cb44a6dff0dda352a086d6c5755e -> mc-2025.03.12-a974454.tar.gz
-https://direct-github.funmore.org/fb/97/72/fb9772fc28616df02ab1c0dbedfd0b27bb5906127d17031700315f0e8232774f8f645b8103b822f84be3cf709583f002984c9f19af33aeec210e551344be28f1 -> minio-client-2025.03.12-funtoo-go-bundle-e1f4effbbf3fdcea888295bef9f785e6238293c2114e4820edb65bc076c165303fb388609801c653574e5f9530106bb455a301b22b7a48748b55e68ade2e395b.tar.gz"
+https://github.com/minio/mc/tarball/e711f03da22061c6fd51f3d3352d831b7055f50c -> mc-2025.04.03-e711f03.tar.gz
+https://direct-github.funmore.org/18/c3/97/18c397d3b4fed4f74328ba26371948b0ca4ebfd0668482b21eb61528249a07a7140269afb8bb09f45f1a3b563df9ff23c62b625005ccd00b447df485a0358c9d -> minio-client-2025.04.03-funtoo-go-bundle-3ee0dbaacf242ac6d7d89f4739f337b1cdd075aa20ce255a046cbb23ee547827a2e37ebcefb1f4fe61c031c3a5a6a8b2f2077bfa2019104d09e74c2ec980d2b5.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}

@@ -6,7 +6,7 @@ inherit autotools wxwidgets xdg
 
 DESCRIPTION="FTP client with lots of useful features and an intuitive interface"
 HOMEPAGE="https://filezilla-project.org/"
-SRC_URI="https://dl3.cdn.filezilla-project.org/client/FileZilla_3.69.0_src.tar.xz?h=wblZmqyxtYTq8-wgbtCkXA&x=1745162276 -> FileZilla_3.69.0_src.tar.xz"
+SRC_URI="https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.0_src.tar.xz?h=rLDoayttMd3h5ByjFRgTGA&x=1745248644 -> FileZilla_3.69.0_src.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"

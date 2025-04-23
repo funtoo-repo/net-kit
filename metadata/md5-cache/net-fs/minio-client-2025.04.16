@@ -1,0 +1,12 @@
+BDEPEND=dev-lang/go >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Fast tool to manage MinIO clusters
+EAPI=7
+HOMEPAGE=https://min.io/ https://github.com/minio/mc
+KEYWORDS=*
+LICENSE=AGPL-3.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/minio/mc/tarball/1e78af443bf0443eb177f26421fe081f08d83dc5 -> mc-2025.04.16-1e78af4.tar.gz https://direct-github.funmore.org/93/5a/a9/935aa912ec2d1ead6f22d3dbca4d693580501d3e0a30ae9b0d7711b1a904f9e1cd32d6a81d4b8f886b5c09dc1cb1ae06415e6e4147380b670b819ce6590afbbf -> minio-client-2025.04.16-funtoo-go-bundle-675b65fad3ff7c4f9d06c534edaf6a9e61ea5ab7019417f047ef413798d4419632facf2dde661befa91c21c3fb3b8a478e27569b2d0adcc457dff80198a1b05d.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=646c4db961cfb7d063afc9d7b8087330

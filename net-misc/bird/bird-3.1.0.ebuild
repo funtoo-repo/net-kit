@@ -6,14 +6,14 @@ inherit autotools
 
 DESCRIPTION="A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 & IPv6"
 HOMEPAGE="http://bird.network.cz"
-SRC_URI="https://github.com/CZ-NIC/bird/tarball/fac31a22e2552ecd1dc8474f77b017202a6c00d1 -> bird-42.42.42-fac31a2.tar.gz"
+SRC_URI="https://github.com/CZ-NIC/bird/tarball/f6252e7afa818c37c2cbd891fdf919e9a13f3315 -> bird-3.1.0-f6252e7.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"
 KEYWORDS="*"
 IUSE="+client debug"
 
-S="${WORKDIR}/CZ-NIC-bird-fac31a2"
+S="${WORKDIR}/CZ-NIC-bird-f6252e7"
 
 RDEPEND="client? ( sys-libs/ncurses )
 	client? ( sys-libs/readline )"

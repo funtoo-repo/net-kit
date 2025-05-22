@@ -219,8 +219,8 @@ EGO_SUM=(
 	"github.com/dustin/go-humanize v1.0.0/go.mod"
 	"github.com/dustin/go-humanize v1.0.1"
 	"github.com/dustin/go-humanize v1.0.1/go.mod"
-	"github.com/ebitengine/purego v0.8.1"
-	"github.com/ebitengine/purego v0.8.1/go.mod"
+	"github.com/ebitengine/purego v0.8.3"
+	"github.com/ebitengine/purego v0.8.3/go.mod"
 	"github.com/emersion/go-message v0.18.0"
 	"github.com/emersion/go-message v0.18.0/go.mod"
 	"github.com/emersion/go-textwrapper v0.0.0-20200911093747-65d896831594"
@@ -295,8 +295,8 @@ EGO_SUM=(
 	"github.com/gogo/protobuf v1.3.2/go.mod"
 	"github.com/golang-jwt/jwt/v4 v4.5.2"
 	"github.com/golang-jwt/jwt/v4 v4.5.2/go.mod"
-	"github.com/golang-jwt/jwt/v5 v5.2.1"
-	"github.com/golang-jwt/jwt/v5 v5.2.1/go.mod"
+	"github.com/golang-jwt/jwt/v5 v5.2.2"
+	"github.com/golang-jwt/jwt/v5 v5.2.2/go.mod"
 	"github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod"
 	"github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6/go.mod"
 	"github.com/golang/groupcache v0.0.0-20191227052852-215e87163ea7/go.mod"
@@ -1071,8 +1071,8 @@ EGO_SUM=(
 go-module_set_globals
 
 KEYWORDS="*"
-SRC_URI="https://github.com/rclone/rclone/tarball/6a092c64e60a299e7f741d0faaade242eec0596e -> rclone-1.69.2-6a092c6.tar.gz
-https://direct-github.funmore.org/75/29/43/752943b15a3542292ffa6638840ffb75a2d54aeeeed141fd7f004da69d51eedd7ccda94c53faa89c443c2c2771a2b60db8adf470630a73d90fb70b0f3e117416 -> rclone-1.69.2-funtoo-go-bundle-3450da95274a6c6fd32b3a3e13658face37c9a8ca9ec02cc1694308b5b862b5a8f37aad4947a284168393d0c343125f1dc373a12b964a936fd4c0793262b4bd9.tar.gz"
+SRC_URI="https://github.com/rclone/rclone/tarball/99eac6561d2d53e2037c6426864845b94481c411 -> rclone-1.69.3-99eac65.tar.gz
+https://direct-github.funmore.org/ec/2e/9a/ec2e9a0429273fc270531a18a6dc6a7ad2297db4098148913679d222c013c17dca9ff4c49b1f705e680adf9227a40378104d6ef25a0cd340df7ba8f7f3e96ddc -> rclone-1.69.3-funtoo-go-bundle-b3f1ada736bd9b210020bac94721e2b8bcf1440ea5b76772ed942a4b5dcefbef6744a250782df2804ee191a49afcafac75ce5bec8a8376cd1d452200b205ab63.tar.gz"
 
 DESCRIPTION="A program to sync files to and from various cloud storage providers"
 HOMEPAGE="https://rclone.org/"

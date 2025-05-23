@@ -12,7 +12,7 @@ BIS_P="${BIS_PN}-${BIS_PV}"
 
 DESCRIPTION="LDAP suite of application and development tools"
 HOMEPAGE="https://www.openldap.org/"
-SRC_URI="https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.9.tgz -> openldap-2.6.9.tgz
+SRC_URI="https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.10.tgz -> openldap-2.6.10.tgz
 "
 LICENSE="OPENLDAP GPL-2"
 

@@ -126,8 +126,8 @@ EGO_SUM=(
 	"github.com/aws/aws-sdk-go-v2/credentials v1.17.67/go.mod"
 	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30"
 	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30/go.mod"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.77"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.77/go.mod"
+	"github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.49"
+	"github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.49/go.mod"
 	"github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34"
 	"github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34/go.mod"
 	"github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.34"
@@ -144,8 +144,8 @@ EGO_SUM=(
 	"github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.15/go.mod"
 	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.15"
 	"github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.15/go.mod"
-	"github.com/aws/aws-sdk-go-v2/service/s3 v1.80.0"
-	"github.com/aws/aws-sdk-go-v2/service/s3 v1.80.0/go.mod"
+	"github.com/aws/aws-sdk-go-v2/service/s3 v1.72.3"
+	"github.com/aws/aws-sdk-go-v2/service/s3 v1.72.3/go.mod"
 	"github.com/aws/aws-sdk-go-v2/service/sso v1.25.3"
 	"github.com/aws/aws-sdk-go-v2/service/sso v1.25.3/go.mod"
 	"github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.1"
@@ -252,8 +252,8 @@ EGO_SUM=(
 	"github.com/gin-contrib/sse v1.0.0/go.mod"
 	"github.com/gin-gonic/gin v1.10.0"
 	"github.com/gin-gonic/gin v1.10.0/go.mod"
-	"github.com/go-chi/chi/v5 v5.2.1"
-	"github.com/go-chi/chi/v5 v5.2.1/go.mod"
+	"github.com/go-chi/chi/v5 v5.2.2"
+	"github.com/go-chi/chi/v5 v5.2.2/go.mod"
 	"github.com/go-darwin/apfs v0.0.0-20211011131704-f84b94dbf348"
 	"github.com/go-darwin/apfs v0.0.0-20211011131704-f84b94dbf348/go.mod"
 	"github.com/go-git/go-billy/v5 v5.6.2"
@@ -1088,8 +1088,8 @@ EGO_SUM=(
 go-module_set_globals
 
 KEYWORDS="*"
-SRC_URI="https://github.com/rclone/rclone/tarball/affd97f22a14cac3ee31f1ba286ddb1bd95aed70 -> rclone-1.70.1-affd97f.tar.gz
-https://direct-github.funmore.org/f2/53/91/f25391af06c2d547440f31081b4722335284f15637812e871784891af1ce93be3c291903e20f35ef870514223c8f89a48433df257653945ab761239116905c0f -> rclone-1.70.1-funtoo-go-bundle-558c8465737c73b7cf90c9d1236564f794b7a0d3a806a4ccaa785d82d05c789b819888df63d476eac46f0bab461d95d30c11cba2c69b6a67914845055fa43558.tar.gz"
+SRC_URI="https://github.com/rclone/rclone/tarball/21342f10c5ce1496f21356a6e05d56e370ef9492 -> rclone-1.70.2-21342f1.tar.gz
+https://direct-github.funmore.org/44/c3/2d/44c32d67833f5a820e78dd7441a27842eab63231ff86ab5cddddbd0f8973c7ad3b52c076a429fc7f53a9899a8d201b7dfe2d89be2b2d09de67142809a3e29ccc -> rclone-1.70.2-funtoo-go-bundle-36adaa082a8e462fc75c0d5f29fe989d7ff387c2dc7a10311cb876bac098d0c8c8e49760f7aa797c4be2b16d13ea936867a336252544ca8e2c626a40100d94cf.tar.gz"
 
 DESCRIPTION="A program to sync files to and from various cloud storage providers"
 HOMEPAGE="https://rclone.org/"

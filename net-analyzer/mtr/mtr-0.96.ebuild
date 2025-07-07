@@ -5,14 +5,14 @@ inherit autotools eutils fcaps flag-o-matic
 
 DESCRIPTION="My TraceRoute, an Excellent network diagnostic tool"
 HOMEPAGE="http://www.bitwizard.nl/mtr/"
-SRC_URI="https://github.com/traviscross/mtr/tarball/852e5617fbf331cf292723702161f0ac9afe257c -> mtr-0.95-852e561.tar.gz"
+SRC_URI="https://github.com/traviscross/mtr/tarball/f392168771570b0fdc104c38dea6bbc2ce585710 -> mtr-0.96-f392168.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="*"
 IUSE="gtk ipv6 ncurses"
 
-S="${WORKDIR}/traviscross-mtr-852e561"
+S="${WORKDIR}/traviscross-mtr-f392168"
 
 RDEPEND="
         gtk? (

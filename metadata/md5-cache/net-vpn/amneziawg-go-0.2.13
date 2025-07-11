@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=postinst prepare unpack
+DESCRIPTION=AmneziaWG VPN protocol
+EAPI=7
+HOMEPAGE=https://github.com/amnezia-vpn/amneziawg-go
+KEYWORDS=*
+LICENSE=MIT
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/amnezia-vpn/amneziawg-go/tarball/1abd24b5b9ca89609d26af1f43743d8a9dc940da -> amneziawg-go-0.2.13-1abd24b.tar.gz https://direct-github.funmore.org/ec/94/ac/ec94ac9aee30f7f50837ec954836d19c406d39e22af80ff84934a5a9c08e7d525a3a94b992c560d39125b8a3947e7d9df6bd47f99e6841946459ae0d144b0b90 -> amneziawg-go-0.2.13-funtoo-go-bundle-e447dc0d580d5768a23c7b7e08a91205e8e051a56e945e5a6bd75271f8ce2180d6f64c89a257465ca24d95ef009bc881a4430bfb7f4e140f858918b9d6b3d73b.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=13a06061a84a0f94d2e94c1506d7d16d

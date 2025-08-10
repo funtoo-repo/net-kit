@@ -40,6 +40,7 @@ RDEPEND="${COMMON_DEPEND}
 # sphinx required for man-page and html creation
 BDEPEND="
 	doc? ( dev-python/sphinx )
+	dev-python/roman
 	virtual/pkgconfig
 "
 

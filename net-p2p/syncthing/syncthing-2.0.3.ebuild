@@ -247,8 +247,8 @@ EGO_SUM=(
 	"github.com/russross/blackfriday/v2 v2.1.0/go.mod"
 	"github.com/sclevine/spec v1.4.0"
 	"github.com/sclevine/spec v1.4.0/go.mod"
-	"github.com/shirou/gopsutil/v4 v4.25.7"
-	"github.com/shirou/gopsutil/v4 v4.25.7/go.mod"
+	"github.com/shirou/gopsutil/v4 v4.25.6"
+	"github.com/shirou/gopsutil/v4 v4.25.6/go.mod"
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/objx v0.4.0/go.mod"
 	"github.com/stretchr/objx v0.5.0/go.mod"
@@ -422,14 +422,14 @@ go-module_set_globals
 
 DESCRIPTION="Open Source Continuous File Synchronization"
 HOMEPAGE="https://github.com/syncthing/syncthing"
-SRC_URI="https://github.com/syncthing/syncthing/tarball/8c5acc8906a7677e66b776cb8457c7ff5fba3cc6 -> syncthing-2.0.2-8c5acc8.tar.gz
-https://direct-github.funmore.org/2d/db/5f/2ddb5f70f01d9eb7db50d11f21561b80a6299696e1aedb841e78dbb911917232603ba20b494185a9db1596091b322112dafa2d484267d5d8f75810b561619a3e -> syncthing-2.0.2-funtoo-go-bundle-a00c3251ab4659634c1febf64f120c6b37bff9610ba17a107138baab358bb1d147bbdbed85747d78af9cf00dda93498fddcb3a1c99551e0bddb95bb714d22dae.tar.gz"
+SRC_URI="https://github.com/syncthing/syncthing/tarball/233b325f9cfde17d3137361951e6c1fb7a889ed7 -> syncthing-2.0.3-233b325.tar.gz
+https://direct-github.funmore.org/27/e4/c0/27e4c0bd0f65fc74c34f6131a9011497836794bc41b9f97c28c7f1092feafa9891154af4a6024f97d2d77426a98cc8ec6e83b7f180c59171bfab6f2a7b3cd53e -> syncthing-2.0.3-funtoo-go-bundle-658652c80ab0b86df1cb6adbd8f9b01f5d3921090a8fbf4af52b71cc9b3deea46ccb2e7754d255822436400cd6714f83a5764cd83f0cc7ca2226bc3239f0d4e3.tar.gz"
 
 LICENSE="Apache-2.0 BSD BSD-2 ISC MIT MPL-2.0 Unlicense"
 SLOT="0"
 KEYWORDS="*"
 IUSE="tools"
-S="${WORKDIR}/syncthing-syncthing-8c5acc8"
+S="${WORKDIR}/syncthing-syncthing-233b325"
 
 DEPEND=">=dev-lang/go-1.17"
 

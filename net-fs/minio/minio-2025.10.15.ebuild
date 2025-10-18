@@ -526,8 +526,8 @@ EGO_SUM=(
 	"github.com/orisano/pixelmatch v0.0.0-20220722002657-fb0b55479cde/go.mod"
 	"github.com/pascaldekloe/goe v0.1.0/go.mod"
 	"github.com/pelletier/go-toml v1.2.0/go.mod"
-	"github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c"
-	"github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c/go.mod"
+	"github.com/philhofer/fwd v1.2.0"
+	"github.com/philhofer/fwd v1.2.0/go.mod"
 	"github.com/pierrec/lz4/v4 v4.1.22"
 	"github.com/pierrec/lz4/v4 v4.1.22/go.mod"
 	"github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c"
@@ -632,8 +632,8 @@ EGO_SUM=(
 	"github.com/tidwall/pretty v1.2.0/go.mod"
 	"github.com/tidwall/pretty v1.2.1"
 	"github.com/tidwall/pretty v1.2.1/go.mod"
-	"github.com/tinylib/msgp v1.2.5"
-	"github.com/tinylib/msgp v1.2.5/go.mod"
+	"github.com/tinylib/msgp v1.4.0"
+	"github.com/tinylib/msgp v1.4.0/go.mod"
 	"github.com/tklauser/go-sysconf v0.3.15"
 	"github.com/tklauser/go-sysconf v0.3.15/go.mod"
 	"github.com/tklauser/numcpus v0.10.0"
@@ -893,8 +893,8 @@ EGO_SKIP_TIDY=1
 DESCRIPTION="An Amazon S3 compatible object storage server"
 HOMEPAGE="https://min.io/ https://github.com/minio/minio"
 SRC_URI="
-https://github.com/minio/minio/tarball/01ce918d8279a20e4706b96a64396146894adee4 -> minio-2025.09.07-01ce918.tar.gz
-https://direct-github.funmore.org/0c/f2/4b/0cf24b790fbe0840b57c538242899bdd56402f9810bfb22bdac91385f0a1445a22d4e00d838ac0d7b5a022a63dc9c91289e5d6785dd6b721c9a2321b87aab5dd -> minio-2025.09.07-funtoo-go-bundle-bbbd2608603b514eea0ccaf0656cc6c4b4d19bb3ce292f7dfe2ce1796c7836665e27f69dfd4ddab201888f08a1c3f4f16fb7376ad33afd3874b78c142ddf9a26.tar.gz"
+https://github.com/minio/minio/tarball/9e49d5e7a648f00e26f2246f4dc28e6b07f8c84a -> minio-2025.10.15-9e49d5e.tar.gz
+https://direct-github.funmore.org/2a/39/59/2a3959ddb152dbc3564be5fb481cd7718377e8101a30b717cf20a8c6408a5a8178fee70e07ad8c53c8ebf844d588ea3248080ba458c6b5cf962eb86773f93f51 -> minio-2025.10.15-funtoo-go-bundle-7d3194cc5f7bf47eba579badc4bd5dbfd3246e2c6af6dd5adf8b3a0d85f447135fdfa24b08423ed450903a7a56223cd61a6042d6e980a517b08f1df2c91e7ac7.tar.gz"
 
 MY_PV="$(ver_cut 1-3)T$(ver_cut 4-7)Z"
 MY_PV=${MY_PV//./-}

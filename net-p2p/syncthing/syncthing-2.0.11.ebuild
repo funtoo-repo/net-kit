@@ -422,14 +422,14 @@ go-module_set_globals
 
 DESCRIPTION="Open Source Continuous File Synchronization"
 HOMEPAGE="https://github.com/syncthing/syncthing"
-SRC_URI="https://github.com/syncthing/syncthing/tarball/ed0760c2e1346907ee8a9a122ddcc1b73af34a7c -> syncthing-2.0.10-ed0760c.tar.gz
-https://direct-github.funmore.org/97/c6/53/97c65378a79379077fcbc081cbb0bd3fe689a46dad418eb1b0ff2a085739c4eb2c567f7d783daa0adfae7e244387fd823448ccb48803c2f823ba9ad017639848 -> syncthing-2.0.10-funtoo-go-bundle-658652c80ab0b86df1cb6adbd8f9b01f5d3921090a8fbf4af52b71cc9b3deea46ccb2e7754d255822436400cd6714f83a5764cd83f0cc7ca2226bc3239f0d4e3.tar.gz"
+SRC_URI="https://github.com/syncthing/syncthing/tarball/425538a7d595725ef7a1aa4a6077eaa4d015616c -> syncthing-2.0.11-425538a.tar.gz
+https://direct-github.funmore.org/4d/d2/b5/4dd2b5cb8e4b480d56314679b36a9ae387d62effdef63c0a55847dc225e79c4f000de2c58b8d0aa29e9c31b0cd504253838c8520de1aaf26763ba13d18786277 -> syncthing-2.0.11-funtoo-go-bundle-658652c80ab0b86df1cb6adbd8f9b01f5d3921090a8fbf4af52b71cc9b3deea46ccb2e7754d255822436400cd6714f83a5764cd83f0cc7ca2226bc3239f0d4e3.tar.gz"
 
 LICENSE="Apache-2.0 BSD BSD-2 ISC MIT MPL-2.0 Unlicense"
 SLOT="0"
 KEYWORDS="*"
 IUSE="tools"
-S="${WORKDIR}/syncthing-syncthing-ed0760c"
+S="${WORKDIR}/syncthing-syncthing-425538a"
 
 DEPEND=">=dev-lang/go-1.17"
 

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=A program to sync files to and from various cloud storage providers
+EAPI=7
+HOMEPAGE=https://rclone.org/
+IUSE=+mount
+KEYWORDS=*
+LICENSE=Apache-2.0 BSD BSD-2 ISC MIT
+RDEPEND=>=sys-fs/fuse-3
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/rclone/rclone/tarball/f0a23af8c147c968031699cb2c84eb1d80b2affa -> rclone-1.72.0-f0a23af.tar.gz https://direct-github.funmore.org/a8/2b/ab/a82babf3cdc1d73936918990d733e8ba5800d8af8e8b86b37389c2b021886d9f8585f546879cc95cf06ef515d6add05b1b94e50afe36bbd66dfcabb21ef55874 -> rclone-1.72.0-funtoo-go-bundle-306ff03fd2f723500432ac44044797c8d8e1b8648bfabaf36de5fa51eb6c9400ca62cd086e3ff49ffc09974a2625ef8a4ee5dec6b0eec004bfa267e9f06ceca3.tar.gz
+_eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	go-module	cb10a443c46556a15ed035d7a99128e8	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=2b22d1759abe1f9529892bc1faf59ac1
